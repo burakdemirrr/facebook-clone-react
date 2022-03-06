@@ -1,0 +1,142 @@
+.main{
+    flex:0.61;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add_post,.entry{
+    display:flex;
+    margin-top:15px;
+    flex-direction:column;
+    width:560px;
+    min-height:140px;
+    padding:12px;
+    background:#FFFFFF;
+    border-radius:10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 5px 0 rgba(0, 0, 0, 0.01);
+}
+.entry{
+    margin-top:18px;
+    transition:450ms;
+}
+.post_top,.entry_top{
+    display:flex;
+    align-items:center;  
+}
+img{
+    width:45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.entry_inner{
+    margin:0 10px;
+}
+.entry_inner p{
+    color:rgb(31, 30, 30);
+    font-size:0.85rem;
+}
+.entry_inner h2{
+    font-size:1.25rem;
+    letter-spacing:-.6px;
+    font-weight:550;
+    margin-bottom: 2px;
+}
+.entry_mid{
+    margin:15px 3px;
+    margin-bottom: 6px;
+    font-size:.95rem;
+}
+.entry_mid p{
+    font-size:1.2rem;
+    color:#050505;
+    font-weight: 500;
+    margin-left:5px;
+}
+.ta{
+    display:flex;
+    justify-content: space-between;
+}
+.delete{
+    cursor:pointer;
+}
+.delete:hover{
+    color:gray;
+}
+
+.post_bottom{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.box{
+    display:flex;
+    align-items: center;
+    margin-top:7px;
+    cursor:pointer;
+    padding:5px 20px;
+    border-radius:12px;
+}
+
+.post_top  .text_input {
+    width:100%;
+    margin-left:10px;
+    border:0;
+    outline: 0;
+    background-color: #e6edf0af;
+    height:41px;
+    border-radius:15px;
+    padding:0 8px;
+    font-size:.95rem;
+    letter-spacing: .2px;
+}
+.post_top  .text_input:hover{
+    background-color: #E4E6E9;
+}
+.post_top .file_input{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:25%;
+    margin-left:10px;
+    border:0;
+    outline: 0;
+    padding:0 8px;
+    font-size:.95rem;
+}
+.rr{
+    width:100%;
+    background: rgb(236, 235, 235);
+    border:.7px solid rgb(180, 178, 178);
+    margin:0 auto;
+    outline:0;
+    margin-top:20px;  
+    margin-bottom:-2px;  
+}
+
+.box:hover{
+    background:#F2F2F2;
+}
+.box p{
+    margin-left:3px;
+}
+.box{
+    color:rgb(80, 81, 82);
+    width:100%;
+    justify-content:center;
+    margin-right:15px;
+}
+.rara{
+    width:100%;
+    outline:0;
+    margin:3px;
+    background: rgb(236, 235, 235);
+    border:.7px solid rgb(216, 216, 216);
+}
+
+.post_img{
+    width:100%;
+    object-fit: cover;
+    border-radius: 0px;
+    margin-top:10px;
+    cursor: pointer;
+}

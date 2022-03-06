@@ -1,0 +1,38 @@
+.rightbar{
+    top:75px;
+    position:sticky;
+    flex:0.21;
+    height: 500px;
+}
+.rightbar p:nth-child(1){
+    font-size:1.2rem;
+    color:rgb(99, 99, 99);
+}
+.icon_container{
+    display:flex;
+    align-items:center;
+    width:100%;
+    justify-content:space-between;
+}
+.icons{
+    display:flex;
+}
+
+hr{
+    margin:15px 0;
+    width:100%;
+}
+.people .a{
+    display:flex;
+    margin:15px 0;
+    border-radius:12px;
+    padding:5px 0;
+    align-items: center;
+    cursor: pointer;
+}
+.people .a:hover{
+    background:rgba(228, 228, 228, 0.767);
+}
+.people .a p{
+    margin-left:6px;
+}
